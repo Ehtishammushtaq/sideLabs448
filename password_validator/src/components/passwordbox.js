@@ -12,15 +12,15 @@ function Passwordbox() {
 
       if((passwordOnelen===0) && (passwordtwolen===0))
       {
-        alert('Bhadwe (-_-)');
+        alert('Please enter a password ');
       }
       else if(password1.current.value === password2.current.value)
       {
-        alert('Bosdk password sahi hai');
+        alert('Passwords Matched!');
       }
       else
       {
-        alert('kya cutiyapa hai yaar...sahi se password de na')
+        alert('Passwords did not match!')
       }
          
      }
@@ -36,7 +36,7 @@ function Passwordbox() {
         <input type={'password'} ref={password2} ></input>
         </div>
         <br/>
-        <button onClick={Calculator}> button</button>
+        <button onClick={Calculator}>Check </button>
 
     </div>
     
