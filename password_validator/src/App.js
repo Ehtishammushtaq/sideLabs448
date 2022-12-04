@@ -4,7 +4,11 @@ import './App.css';
 function App() {
   return (
     
-    <Passwordbox/>
+   <div>
+     <Passwordbox/>
+   </div>
+    
+      
   );
 }
 
